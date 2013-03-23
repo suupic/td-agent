@@ -5,7 +5,7 @@ dst=td-agent-$version
 rev=`cat REVISION`
 
 rm -fR fluentd
-git clone git://github.com/fluent/fluentd.git
+git clone git://github.com/suupic/fluentd.git
 cd fluentd
 git checkout $rev
 cd ..

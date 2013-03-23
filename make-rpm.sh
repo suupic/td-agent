@@ -15,7 +15,7 @@ yum install -y zlib-devel automake autoconf libtool auto-buildrequires openssl-d
 
 # setup td-agent-$version.tar.gz from fluentd.git
 rm -fR fluentd
-git clone git://github.com/fluent/fluentd.git
+git clone git://github.com/suupic/fluentd.git
 cd fluentd
 git checkout $rev
 cd ..
